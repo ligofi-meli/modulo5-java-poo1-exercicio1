@@ -51,12 +51,12 @@ public class Exercicio {
         System.out.println("Quantidade de filhos: " + quantidadeDeFilhos);
 
         System.out.println("--- Exercício 3 ---");
-        Scanner var17 = new Scanner(System.in);
+        Scanner diasDeCampanha = new Scanner(System.in);
         System.out.println("Digite o número de dias de campanha: ");
-        int var18 = var17.nextInt();
-        byte var19 = 2;
-        int var20 = var19 * var18;
-        System.out.println(var18 + " dias de campanha -> $ " + var19 + " * " + var18 + " = $" + var20);
+        int dias = diasDeCampanha.nextInt();
+        byte preco = 2;
+        int valorTotaldaCampanha = preco * dias;
+        System.out.println(dias + " dias de campanha -> $ " + preco + " * " + dias + " = $" + valorTotaldaCampanha);
 
         System.out.println("--- Exercício 4 ---");
         double valorBrutoPremio = 23563899;
